@@ -1,0 +1,228 @@
+body {
+  color: #ff00cc;
+  font-family: "Press Start 2P";
+  font-style: italic;
+  background: white;
+}
+
+nav {
+  font-size: 25px;
+  margin: 30px;
+}
+
+main {
+  margin-left: 30px;
+}
+
+footer {
+  clear: both;
+  font-size: 10px;
+  margin: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #ff00cc;
+}
+
+.enter {
+  font-size: 150px;
+  margin: 30px;
+}
+
+.navbutton {
+  padding: 10px;
+}
+
+.description-box {
+  width: 1240px;
+  height: 130px;
+  background-color: white;
+  color: #ff00cc;
+  font-size: 15px;
+  line-height: 20px;
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 60px;
+}
+.image {
+  float: left;
+  padding: 30px;
+}
+
+.image-enter-button {
+  width: 200px;
+  height: 50px;
+  font-size: 40px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.footer-contacts {
+  padding: 5px;
+  padding-top: 20px;
+  float: left;
+}
+
+/*for subpages*/
+.black-background {
+  background-color: black;
+}
+
+/*for subpage: reviews*/
+.review-box {
+  width: 200px;
+  height: 210px;
+  background-color: rgb(15, 45, 218);
+  float: left;
+  padding: 10px;
+  margin: 30px;
+  font-size: 15px;
+}
+
+/*for subpage: adventure*/
+.adventure-background {
+  background-image: url("../images/journey1.jpg");
+}
+
+/*for subpage: socialmedia*/
+.social-box {
+  width: 136px;
+  height: 180px;
+  background-color: rgb(32, 32, 32);
+  color: #ff00cc;
+  font-size: 11px;
+  float: left;
+  padding: 10px;
+  margin: 30px;
+}
+
+/*for subpage: contact*/
+.contact-message {
+  padding: 5px;
+  line-height: 40px;
+}
+
+/*for subpage: journeys*/
+.image-row {
+  float: left;
+}
+
+/*for subpage: journeys*/
+.journey-box {
+  width: 1150px;
+  height: 130px;
+  background-color: black;
+  color: #ff00cc;
+  font-size: 12px;
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  line-height: 15px;
+}
+
+/*for subpage: journeys*/
+.journey-button {
+  width: 1150px;
+  height: 30px;
+  background-color: blue;
+  font-size: 12px;
+  font-weight: bold;
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+/*for subpage: crew*/
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  height: 420px;
+  float: left;
+  margin: 20px;
+}
+
+.crew-image {
+  display: block;
+  width: 200px;
+  height: 420px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: #ff00ccb0; /* Black see-through */
+  color: #f1f1f1;
+  width: 200px;
+  height: 420px;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 12px;
+  padding: 5px;
+  text-align: left;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+/* for forms */
+form {
+  margin: 2rem;
+  width: 800px;
+}
+.form-box {
+  padding: 1rem;
+  clear: both;
+  width: 100%;
+  position: relative;
+}
+.form-box label {
+  font-size: 1rem;
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+}
+.form-box input {
+  font-size: 1rem;
+  width: 300px;
+  padding: 0.25rem 1rem;
+}
+.form-box select {
+  font-size: 1rem;
+  width: 300px;
+  padding: 0.25rem 1rem;
+}
+.form-box option {
+  font-size: 1rem;
+  width: 300px;
+  padding: 0.25rem 1rem;
+}
+.form-box input[type="checkbox"] {
+  font-size: 1rem;
+}
+.form-box button {
+  font-size: 1rem;
+  font-style: italic;
+  border: none;
+  padding: 0.25rem 2rem;
+  margin-right: 1rem;
+  color: black;
+  background-color: #ff00cc;
+  cursor: pointer;
+}
+
+.form-box textarea {
+  width: 500px;
+  height: 300px;
+}
+
+.journey-button {
+  color: white;
+}

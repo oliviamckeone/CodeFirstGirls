@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>index-page</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+
+<body class="black-background">
+    <div class="enter"><a href="../index.html">EARTH</a></div>
+
+    <p class="contact-message">
+If you would like to get in contact with us here at the Intergalactic Travel Co. fill in the contact form below.<br>We aim to reply within 5 working days.
+    </p>
+
+<form>
+    <h1>Contact Form</Form></h1>
+
+    <form id="form-user" method="get" action="../pages/submit.html">
+    <div class="form-box error" data-errormsg="">
+        <label for="input-First Name">First Name</label>
+        <input
+          type="text"
+          id="input-first"
+          required
+          autofocus
+          placeholder="First Name"
+          tabindex="1"
+        />
+      </div>
+
+      <div class="form-box error" data-errormsg="">
+          <label for="input-Surname">Surname</label>
+          <input
+            type="text"
+            id="input-first"
+            required
+            autofocus
+            placeholder="Surname"
+            tabindex="1"
+          />
+        </div>
+
+        <div class="form-box" data-errormsg="">
+          <label for="input-email">E-mail</label>
+          <input
+            type="email"
+            id="input-email"
+            required
+            placeholder="E-mail Address"
+            tabindex="3"
+          />
+        </div>
+
+        <div>
+            <p class="info-text">Leave us your comments here:</p>
+            <br>
+            <div class="form-box">
+              <label for="comments"></label>
+              <textarea name="comments" class="floatLabel" id="comments"></textarea>
+              </div>
+
+              <div class="form-box">
+                  <button id="button-Submit">Submit</button>
+                </div>
+
+              </form>
+
+    <footer>
+        <div class="footer-contacts"><a href="../pages/socialmedia.html">/SOCIAL MEDIA</a></div>
+        <div class="footer-contacts"><a href="../pages/contact.html">/CONTACT</a></div>
+    </footer>
+    
+</html>
